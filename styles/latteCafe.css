@@ -1,0 +1,82 @@
+.header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.coffee-logo {
+    width: 50px;
+    height: 50px;
+  }
+
+.header li {
+	float: right;
+}
+
+.header li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Space Mono',monospace;
+}
+
+a:hover {
+    background-color: white;
+    color: black !important;
+}
+
+.selected {
+    background-color: lightgreen;
+    color: black !important;
+}
+
+html{
+	background: #231d43;
+}
+
+.body {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  overflow: hidden;
+  width: 100vw;
+  
+  .item1 {
+    flex-shrink: 0;
+    height: 250px;
+    width: 250px;
+    background-color:  rgb(244, 67, 54);
+  }
+
+  .item2 {
+    flex-shrink: 0;
+    height: 250px;
+    width: 400px;
+    background-color: rgb(67, 160, 71);
+  }
+}
+
+.item2 p {
+    font-family: helvetica, arial, sans-serif;
+    padding-left: 5px;
+}
+
+.item2 li {
+    font-family: helvetica, arial, sans-serif;
+    padding-left: 5px;
+    overflow: default;
+}
+
+.item2 ul {
+    overflow: default;
+    list-style-type: default;
+}
+
+.item1 img {
+    width: 250px;
+    height: 250px;
+}

@@ -1,0 +1,151 @@
+body {
+  font-family: 'Space Mono',monospace;
+  color: white;
+  margin: 0;
+}
+
+.header ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.coffee-logo {
+    width: 45px;
+    height: 45px;
+  }
+
+
+.header li {
+	float: right;
+}
+
+.header li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+a:hover {
+    background-color: white;
+    color: black !important;
+}
+
+.selected {
+    background-color: lightgreen;
+    color: black !important;
+}
+
+html{
+	background: #231d43;
+}
+
+.body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  overflow: hidden;
+  
+  width: 100vw;
+  top:0;
+  position: sticky;
+
+  .item1 {
+    flex-shrink: 0;
+    height: 20vw;
+    width: 20vw;
+    padding-bottom: 1vw;
+  }
+
+  .item2 {
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    flex-shrink: 0;
+    height: 20vw;
+    width: 40vw;
+    color: white;
+  }
+}
+
+.item2 p {
+
+    padding-left: 5px;
+}
+
+.item2 li {
+
+    padding-left: 5px;
+    overflow: default;
+}
+
+.item2 ul {
+    overflow: default;
+    list-style-type: default;
+}
+
+.item1 img {
+    width: 20vw;
+    height: 20vw;
+}
+
+.center-this {
+  justify-content: center;
+  display: flex;
+}
+
+.another-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #231d43;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .center-this {
+  padding-top: 35px;
+}
+
+a {
+  text-decoration: none;
+  color: #988be4;
+}
+
+.socialbox {
+  border: #988be4;
+  border-radius: 2px;
+  border-style: solid;
+  border-radius: 2px;
+  width: 45%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: .5vw;
+  background-color: #988be470;
+  gap: 1%;
+}
+
+.social-links {
+  display: flex;
+  gap: 2.5%;
+}
+
+.social-links img {
+  width: 1.5vw; 
+  height: 1.5vw;
+}
+
+.socialbox p {
+  font-size: 1.5vw;
+  margin: 0;
+}
