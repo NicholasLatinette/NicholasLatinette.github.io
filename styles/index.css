@@ -16,7 +16,6 @@ body {
     height: 45px;
   }
 
-
 .header li {
 	float: right;
 }
@@ -44,6 +43,7 @@ html{
 	background: #231d43;
 }
 
+
 .body {
   align-items: center;
   display: flex;
@@ -51,8 +51,8 @@ html{
   height: 100vh;
   justify-content: center;
   overflow: hidden;
-  
-  width: 100vw;
+  padding-top:9.5vh;
+  width: 50%;
   top:0;
   position: sticky;
 
@@ -88,19 +88,16 @@ html{
     list-style-type: default;
 }
 
+
 .item1 img {
     width: 20vw;
     height: 20vw;
 }
 
-.center-this {
+.content-container {
   justify-content: center;
   display: flex;
-}
-
-.another-container {
-  display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 /* The sticky class is added to the header with JS when it reaches its scroll position */
@@ -113,7 +110,7 @@ html{
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .center-this {
-  padding-top: 35px;
+  padding-top: 2.8vh;
 }
 
 a {
@@ -140,12 +137,143 @@ a {
   gap: 2.5%;
 }
 
+.resume-section h3 {
+  font-size: 2vw;
+}
+
+.resume-section li {
+  font-size:1.4vw;
+  width:80%;
+}
+
+.resume-section p {
+  font-size: 1.5vw;
+}
+
 .social-links img {
   width: 1.5vw; 
   height: 1.5vw;
+  padding-right: 5px;
 }
 
 .socialbox p {
-  font-size: 1.5vw;
+  font-size: 1.2vw;
   margin: 0;
+}
+
+@media (max-width:1500px) {
+  .content-container {
+    display: block;
+    padding-top: .5%;
+  }
+
+  .body {
+    all:unset;
+    align-items: center;
+    display: flex;
+    padding-bottom: 5vh;
+    flex-direction: column;
+  
+    .item1 {
+      flex-shrink: 0;
+      height: 50vw;
+      width: 50vw;
+      padding-bottom: 1vw;
+    }
+  
+    .item2 {
+      /* background-color: rgba(255, 255, 255, 0.1); */
+      flex-shrink: 0;
+      height: 70vw;
+      width: 75vw;
+      color: white;
+      font-size: medium;
+    }
+  }
+
+  .another-container {
+    align-content: center;
+    padding-left: 10px;
+  }
+
+  .another-container h3 {
+    font-size: 1.7vw;
+  }
+  
+  .another-container li {
+    font-size:1.1vw;
+  }
+  
+  .another-container p {
+    font-size: 1.2vw;
+  }
+  
+  .item2 p {
+    font-size: 3.5vw;
+    padding-left: 5px;
+}
+
+.item2 h2 {
+  font-size: 4vw;
+}
+
+.item2 a {
+  font-size: 3.5vw;
+}
+
+.item2 li {
+
+    padding-left: 5px;
+    overflow: default;
+}
+
+.item2 ul {
+    overflow: default;
+    list-style-type: default;
+}
+
+
+.item1 img {
+    width: 50vw;
+    height: 50vw;
+}
+
+.socialbox {
+  border: #988be4;
+  border-radius: 2px;
+  border-style: solid;
+  border-radius: 2px;
+  width: 50%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: .5vw;
+  background-color: #988be470;
+  gap: 1%;
+}
+
+.socialbox p {
+  font-size: 4vw;
+  margin: 0;
+}
+.social-links img {
+  width: 4vw; 
+  height: 4vw;
+  padding-right: 5px;
+}
+
+.social-links {
+  display: flex;
+  gap: 2.5%;
+}
+
+.header li {
+	float:center;
+  font-size: 4vw;
+}
+
+.header ul {
+  padding-right: 32%;
+}
+
 }
