@@ -44,36 +44,39 @@ html{
 }
 
 
-.body {
+.AboutMe {
   align-items: center;
   display: flex;
   flex-direction: column;
   height: 100vh;
   justify-content: center;
   overflow: hidden;
-  padding-top:9.5vh;
+  padding-top:0vh;
   width: 50%;
   top:0;
   position: sticky;
 
-  .item1 {
+  /* .item1 {
     flex-shrink: 0;
     height: 20vw;
     width: 20vw;
     padding-bottom: 1vw;
-  }
+  } */
 
   .item2 {
     /* background-color: rgba(255, 255, 255, 0.1); */
     flex-shrink: 0;
     height: 20vw;
-    width: 40vw;
+    width: 20vw;
     color: white;
   }
 }
 
-.item2 p {
+.item2 {
+  font-size: 1.2vw;
+}
 
+.item2 p {
     padding-left: 5px;
 }
 
@@ -94,6 +97,7 @@ html{
     height: 20vw;
 }
 
+
 .content-container {
   justify-content: center;
   display: flex;
@@ -106,6 +110,12 @@ html{
   top: 0;
   width: 100%;
   background-color: #231d43;
+}
+
+.holdPosition {
+  position:fixed;
+  top:20%;
+  bottom:25%;
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
@@ -123,21 +133,32 @@ a {
   border-radius: 2px;
   border-style: solid;
   border-radius: 2px;
-  width: 45%;
   display: flex;
   justify-content: left;
   align-items: center;
   padding: .5vw;
   background-color: #988be470;
   gap: 1%;
+  margin-bottom: 5px;
 }
 
 .social-links {
   display: flex;
+  flex-direction: column;
   gap: 2.5%;
 }
 
+.hobbies-section {
+  padding-left: 1%;
+}
+
+.resume-section {
+  padding-left: 1%;
+}
+
 .resume-section h3 {
+  margin-top: unset;
+  padding-top: .1vw;
   font-size: 2vw;
 }
 
@@ -167,19 +188,19 @@ a {
     padding-top: .5%;
   }
 
-  .body {
+  .AboutMe {
     all:unset;
     align-items: center;
     display: flex;
-    padding-bottom: 5vh;
+    padding-top: 5vh;
     flex-direction: column;
   
-    .item1 {
+    /* .item1 {
       flex-shrink: 0;
       height: 50vw;
       width: 50vw;
       padding-bottom: 1vw;
-    }
+    } */
   
     .item2 {
       /* background-color: rgba(255, 255, 255, 0.1); */
@@ -191,21 +212,24 @@ a {
     }
   }
 
-  .another-container {
-    align-content: center;
-    padding-left: 10px;
+  .holdPosition {
+    position:unset;
   }
 
-  .another-container h3 {
-    font-size: 1.7vw;
+  .another-container {
+    align-content: center;
+  }
+
+  .another-container h3 { 
+    font-size: 1.7rem;
   }
   
   .another-container li {
-    font-size:1.1vw;
+    font-size:1.1rem;
   }
   
   .another-container p {
-    font-size: 1.2vw;
+    font-size: 1.2rem;
   }
   
   .item2 p {
@@ -222,7 +246,6 @@ a {
 }
 
 .item2 li {
-
     padding-left: 5px;
     overflow: default;
 }
@@ -243,7 +266,6 @@ a {
   border-radius: 2px;
   border-style: solid;
   border-radius: 2px;
-  width: 50%;
   display: flex;
   justify-content: left;
   align-items: center;
@@ -264,16 +286,17 @@ a {
 
 .social-links {
   display: flex;
+  flex-direction: row;
   gap: 2.5%;
+}
+
+.header ul {
+  padding-right: 25%;
 }
 
 .header li {
 	float:center;
   font-size: 4vw;
-}
-
-.header ul {
-  padding-right: 32%;
 }
 
 }
