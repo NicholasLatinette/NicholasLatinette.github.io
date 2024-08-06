@@ -18,6 +18,7 @@ body {
 
 .header li {
 	float: right;
+  font-size: 1.2rem;
 }
 
 .header li a {
@@ -26,7 +27,6 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-
 }
 
 a:hover {
@@ -72,31 +72,28 @@ html{
   }
 }
 
-.item2 {
-  font-size: 1.2vw;
+.item2 p {
+  font-size: 1.8rem;
+  padding-left: 5px;
 }
 
-.item2 p {
-    padding-left: 5px;
+.item2 h2 {
+  font-size:2rem;
+}
+
+.item2 a {
+  font-size: 1.5rem;
 }
 
 .item2 li {
-
-    padding-left: 5px;
-    overflow: default;
+  padding-left: 5px;
+  overflow: default;
 }
 
 .item2 ul {
-    overflow: default;
-    list-style-type: default;
+  overflow: default;
+  list-style-type: default;
 }
-
-
-.item1 img {
-    width: 20vw;
-    height: 20vw;
-}
-
 
 .content-container {
   justify-content: center;
@@ -114,12 +111,12 @@ html{
 
 .holdPosition {
   position:fixed;
-  top:20%;
+  top:15%;
   bottom:25%;
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .center-this {
+.sticky + .another-container {
   padding-top: 2.8vh;
 }
 
@@ -150,35 +147,40 @@ a {
 
 .hobbies-section {
   padding-left: 1%;
+  padding-bottom: 1%;
+  padding-right: 1%;
 }
 
 .resume-section {
   padding-left: 1%;
+  padding-top: 1%;
+  padding-right:1%;
 }
 
 .resume-section h3 {
   margin-top: unset;
   padding-top: .1vw;
-  font-size: 2vw;
+  font-size: 3rem;
 }
 
 .resume-section li {
-  font-size:1.4vw;
+  font-size:1.5rem;
   width:80%;
 }
 
 .resume-section p {
-  font-size: 1.5vw;
+  font-size: 2rem;
 }
 
 .social-links img {
-  width: 1.5vw; 
-  height: 1.5vw;
+  width: 1.3vw; 
+  height: 1.3vw;
   padding-right: 5px;
 }
 
 .socialbox p {
-  font-size: 1.2vw;
+  padding-left: 3%;
+  font-size: 2.2rem;
   margin: 0;
 }
 

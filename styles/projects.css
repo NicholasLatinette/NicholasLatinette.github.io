@@ -1,13 +1,24 @@
+body {
+  font-family: 'Space Mono',monospace;
+  color: white;
+  margin: 0;
+}
+
+.header li {
+	float:center;
+  font-size: 1.4rem;
+}
+
 .header ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   overflow: hidden;
 }
 
 .coffee-logo {
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
   }
 
 .header li {
@@ -20,7 +31,6 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-family: 'Space Mono',monospace;
 }
 
 a:hover {
@@ -37,12 +47,19 @@ a:hover {
     color: black;
 }
 
-html{
-	background: #231d43;
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #231d43;
 }
 
-body {
-  height: 100vh;
+.sticky + .center-this {
+  padding-top: 2.8vh;
+}
+
+html{
+	background: #231d43;
 }
 
 .card-parent {

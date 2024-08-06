@@ -1,3 +1,9 @@
+body {
+  font-family: 'Space Mono',monospace;
+  color: white;
+  margin: 0;
+}
+
 .header ul {
   list-style-type: none;
   margin: 0px;
@@ -12,6 +18,7 @@
 
 .header li {
 	float: right;
+  font-size: 1.4rem;
 }
 
 .header li a {
@@ -39,11 +46,6 @@ a:hover {
 
 html{
 	background: #231d43;
-}
-
-body {
-  height: 100vh;
-  margin: 0;
 }
 
 .card-parent {
