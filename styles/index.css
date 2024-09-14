@@ -4,6 +4,11 @@ body {
   margin: 0;
 }
 
+/* Delete this when more elements on navbar */
+.header { 
+  display: none;
+ }
+
 .header ul {
   list-style-type: none;
   margin: 0px;
@@ -185,6 +190,12 @@ a {
 }
 
 @media (max-width:1500px) {
+/* Delete this when more elements on navbar */
+ .header { 
+  display: none;
+ }
+
+
   .content-container {
     display: block;
     padding-top: .5%;
