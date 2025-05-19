@@ -20,10 +20,14 @@ Personally, I love both the messaging and thought process behind [BearBlogDev](h
 
 Something you quickly realize using your own personal website is that adding to it can be quite the hassle. For example, I had intended to go ahead and implement a blog feature in my previous site. It sounded like a good and fun idea. However, generating content, formatting the content, managing how it looks on ios, android, tablets, etc. it adds alot of friction! Especially whenever you have other hobbies or interests than working on your personal site.
 
-This static site generator is super fast, super simple, and is incredibly simple to use. I can change the entire feel of the website in just a couple of clicks, and all of my posts will still be here.
+This static site generator is super fast and is incredibly simple to use. I can change the entire feel of the website in just a couple of clicks, and all of my posts will still be here.
 
 (Not to mention, but my organization of the previous websites CSS file was... not good.)
 
 ## Some Other Benefits
 
 I recently got into [Obsidian](https://obsidian.md/) which uses markdown files for a note taking software. There are loads of other benefits to Obsidian, and it is much more than just a "note taking software" but a benefit of this switch could also be that I could post things from my notepad to the website! 
+
+That means that I could even "cultivate" a personal digital garden and have a place to post things that im passionate about and want to see stored somewhere online.
+
+Honestly, I think that most people should probably use hugo for their personal site unless maybe you were trying to display your ability to create front ends. You *can* do some cool front end things with Hugo, but in my mind, its not really worth it if you're specifically trying to prove your skill in front end anyways.
