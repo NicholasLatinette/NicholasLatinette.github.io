@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Nicholas Latinette</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Nicholas Latinette</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <managingEditor>nicholaslatinette@gmail.com (Nicholas Latinette)</managingEditor>
+    <webMaster>nicholaslatinette@gmail.com (Nicholas Latinette)</webMaster>
+    <copyright>Nicholas Latinette (CC BY 4.0)</copyright>
+    <lastBuildDate>Mon, 12 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Resume</title>
+      <link>http://localhost:1313/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>nicholaslatinette@gmail.com (Nicholas Latinette)</author>
+      <guid>http://localhost:1313/resume/</guid>
+      <description>&lt;h1 id=&#34;what-is-this&#34;&gt;What is this?&lt;/h1&gt;&#xA;&lt;p&gt;This is basically my resume right now in text format.&lt;/p&gt;&#xA;&lt;h3 id=&#34;certifications&#34;&gt;Certifications&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Comptia Security+ Certification&lt;/li&gt;&#xA;&lt;li&gt;TS/SCI&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;work-experience&#34;&gt;Work Experience:&lt;/h2&gt;&#xA;&lt;p&gt;L3Harris - Associate Software Engineer - January 2023 to present&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Communicate across different job functions to effectively deliver sprint commitments&lt;/li&gt;&#xA;&lt;li&gt;Perform various maintenance activities&lt;/li&gt;&#xA;&lt;li&gt;Update and interact with existing database schemas&lt;/li&gt;&#xA;&lt;li&gt;Implement small frontend and backend changes&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Washington University - Research Intern - June 2021 to August 2021&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Worked independently to analyze big data sets using bash scripts&lt;/li&gt;&#xA;&lt;li&gt;Transformed data into graphs for presentation using R programming language&lt;/li&gt;&#xA;&lt;li&gt;Worked with Mentor to learn what findings were impactful and worth being presentable&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;ACM Game, A Missouri University of Science and Technology Club - Web Lead - August 2019 to October 2021&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h1 id="what-is-this">What is this?</h1>
+<p>This is basically my resume right now in text format.</p>
+<h3 id="certifications">Certifications</h3>
+<ul>
+<li>Comptia Security+ Certification</li>
+<li>TS/SCI</li>
+</ul>
+<h2 id="work-experience">Work Experience:</h2>
+<p>L3Harris - Associate Software Engineer - January 2023 to present</p>
+<ul>
+<li>Communicate across different job functions to effectively deliver sprint commitments</li>
+<li>Perform various maintenance activities</li>
+<li>Update and interact with existing database schemas</li>
+<li>Implement small frontend and backend changes</li>
+</ul>
+<p>Washington University - Research Intern - June 2021 to August 2021</p>
+<ul>
+<li>Worked independently to analyze big data sets using bash scripts</li>
+<li>Transformed data into graphs for presentation using R programming language</li>
+<li>Worked with Mentor to learn what findings were impactful and worth being presentable</li>
+</ul>
+<p>ACM Game, A Missouri University of Science and Technology Club - Web Lead - August 2019 to October 2021</p>
+<ul>
+<li>Designed and developed the ACM Game Website using Figma and Vue</li>
+<li>Listened to requests and feedback from the design team</li>
+<li>Acquired an understanding of Front End design and development</li>
+</ul>
+<p>Grey Eagle Distributors - Merchanidiser - June 2019 - August 2022</p>
+<ul>
+<li>Helped resolve customer’s problems while remaining respectful</li>
+<li>Practiced Excellent Communication between Sales Rep and Lead Merchandiser</li>
+</ul>
+<h2 id="skills">Skills:</h2>
+<ul>
+<li>Python</li>
+<li>C</li>
+<li>C++</li>
+<li>Git</li>
+<li>HTML</li>
+<li>CSS</li>
+<li>Linux</li>
+<li>Houdini</li>
+<li>GNU-Compiler</li>
+<li>SQL</li>
+<li>Microsoft Office</li>
+<li>R</li>
+<li>Java</li>
+<li>Agile</li>
+<li>DevOps</li>
+<li>Docker</li>
+<li>Jira</li>
+<li>Confluence</li>
+<li>Coverity</li>
+<li>Linux</li>
+<li>Red Hat</li>
+<li>SQLite</li>
+<li>Javascript</li>
+</ul>
+<h2 id="notable-classes">Notable Classes:</h2>
+<ul>
+<li>Intro Databases</li>
+<li>Theory of Computer Science - Goes into the theory behind computations</li>
+<li>Computer Networks</li>
+<li>Computer Security</li>
+<li>Intro to Game Theory - What is Game Theory?</li>
+<li>Digital Forensics</li>
+<li>Prog Lang &amp; Translators</li>
+<li>Embedded Programming Course - A course where we have our own microcontroller and program it. Understand different instructions in x86 assembly and program two small projects</li>
+<li>Intro to VR - Use software Houdini to Model 3d objects</li>
+<li>Algorithms - Dive into different common Algorithms within Computer Science. Implement some of them in C++ and understand theory behind their uses</li>
+<li>Intro to Operating Systems</li>
+<li>CS1500 - An Intro to Programming Course (in Python)</li>
+<li>CS1570 - An Intro C++ Course</li>
+<li>CS1580 - Data structures (in C++)</li>
+<li>Linear Alegbra</li>
+<li>Physics 1 &amp; Physics 2</li>
+<li>Calculus 1 &amp; Calculus 2 - Derivatives and Integrals, effectively.
+Cumulative College GPA: 3.6/4</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Why Overhaul The Website?</title>
+      <link>http://localhost:1313/blog/why-switch/</link>
+      <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate><author>nicholaslatinette@gmail.com (Nicholas Latinette)</author>
+      <guid>http://localhost:1313/blog/why-switch/</guid>
+      <description>&lt;p&gt;After slowly creating something I liked through HTML and CSS&amp;hellip; why did I choose to refactor the website into what it is now? There are alot of reasons actually&amp;hellip; but I will quickly go through the most impactful reasons, as well as why its probably a good reason for you to consider switching too.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-did-i-switch-to&#34;&gt;What Did I Switch To?&lt;/h2&gt;&#xA;&lt;p&gt;I switched from designing, building, and iterating on my old website to actually using the static site generator &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;. Hugo generates webpages from markdown files and can generate some fairly complex webpages based on the theme you use and what features you want.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>After slowly creating something I liked through HTML and CSS&hellip; why did I choose to refactor the website into what it is now? There are alot of reasons actually&hellip; but I will quickly go through the most impactful reasons, as well as why its probably a good reason for you to consider switching too.</p>
+<h2 id="what-did-i-switch-to">What Did I Switch To?</h2>
+<p>I switched from designing, building, and iterating on my old website to actually using the static site generator <a href="https://gohugo.io/">Hugo</a>. Hugo generates webpages from markdown files and can generate some fairly complex webpages based on the theme you use and what features you want.</p>
+<p>Personally, I love both the messaging and thought process behind <a href="https://bearblog.dev/">BearBlogDev</a>, and others did too. <a href="https://lente.dev/en">Cai Lente</a> made this theme based on bearcub, and you can read the &ldquo;manifesto&rdquo; on this theme (its hardly a manifesto) on the <a href="https://clente.github.io/hugo-bearcub/">demo page</a>.</p>
+<h2 id="ok-but-why-switch">Ok, But Why Switch?</h2>
+<p>Something you quickly realize using your own personal website is that adding to it can be quite the hassle. For example, I had intended to go ahead and implement a blog feature in my previous site. It sounded like a good and fun idea. However, generating content, formatting the content, managing how it looks on ios, android, tablets, etc. it adds alot of friction! Especially whenever you have other hobbies or interests than working on your personal site.</p>
+<p>This static site generator is super fast, super simple, and is incredibly simple to use. I can change the entire feel of the website in just a couple of clicks, and all of my posts will still be here.</p>
+<p>(Not to mention, but my organization of the previous websites CSS file was&hellip; not good.)</p>
+<h2 id="some-other-benefits">Some Other Benefits</h2>
+<p>I recently got into <a href="https://obsidian.md/">Obsidian</a> which uses markdown files for a note taking software. There are loads of other benefits to Obsidian, and it is much more than just a &ldquo;note taking software&rdquo; but a benefit of this switch could also be that I could post things from my notepad to the website!</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
