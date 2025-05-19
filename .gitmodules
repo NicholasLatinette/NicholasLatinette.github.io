@@ -1,0 +1,3 @@
+[submodule "quickstart/themes/hugo-bearcub"]
+	path = quickstart/themes/hugo-bearcub
+	url = https://github.com/clente/hugo-bearcub
